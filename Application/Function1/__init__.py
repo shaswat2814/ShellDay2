@@ -14,6 +14,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             name = req_body.get('name')
 
     if name:
-        return func.HttpResponse(f"Hello {name}! Welcome to Azure Functions!")
+        return func.HttpResponse(f"Hello {name}! Welcome to Shell!")
     else:
-        return func.HttpResponse(f"Hello! Welcome to Azure Functions!")
+        return func.HttpResponse(f"Hello! Welcome to Shell!")
